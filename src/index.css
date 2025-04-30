@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* import './index.css'; */
+
+html, body, #root {
+  background-color: #ad2fde;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+/* * {
+  background-color: #be7fc0 !important;
+} */
+
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #a14094;
+} */
+/* index.css or App.css */
+
+/* body {
+  background-color: #9828ba;
+  color: #333;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.5s ease-out forwards;
+}
