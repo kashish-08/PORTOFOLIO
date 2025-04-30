@@ -81,7 +81,7 @@ const Header = () => {
         </nav>
 
         <a 
-          href="/kashishCV.pdf" 
+          href="/fullCV.pdf" 
           download 
           className="hidden md:flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors"
         >
@@ -157,6 +157,7 @@ const Header = () => {
                   // href="C:\Users\Kuldeep\Downloads\KULDEEP CV interview.pdf"
                   // href="/Kuldeep_resume.pdf" 
                   // href="/Reesume.pdf"
+                  // href="/fullCV.pdf"
                   href="/fullCV.pdf"
                   download 
                   className="flex items-center bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors"
